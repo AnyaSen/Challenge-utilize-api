@@ -1,0 +1,30 @@
+@import "../../../assets/scss/breakpoints";
+@import "../../../assets/scss/variables";
+
+.NavbarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: $color-white;
+  width: 100%;
+  padding: 0 $space-7;
+  box-shadow: $shadow-1;
+  min-height: 12vh;
+
+  @include sm {
+    padding: $space-2 $space-5;
+  }
+
+  img {
+    height: 5rem;
+    margin-right: $space-5;
+    cursor: pointer;
+
+    @include sm {
+      height: 4rem;
+    }
+  }
+}

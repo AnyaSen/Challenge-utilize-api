@@ -1,0 +1,85 @@
+@import '../../../assets/scss/breakpoints';
+@import '../../../assets/scss/variables';
+
+.ProgramCardContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: $space-4 $space-5;
+	margin: $space-3;
+	box-shadow: $shadow-2;
+	width: fit-content;
+	border-radius: $border-radius;
+	max-width: 50rem;
+	min-width: 40%;
+	text-align: center;
+	height: fit-content;
+
+	@include sm {
+		padding: $space-3 $space-4;
+	}
+
+	.name,
+	.channel {
+		margin-bottom: $space-4;
+	}
+
+	.name {
+		font-weight: 700;
+		position: relative;
+		font-size: 3rem;
+
+		@include md {
+			font-size: 2.5rem;
+		}
+
+		&::after {
+			content: '';
+			position: absolute;
+			width: 5rem;
+			height: 2px;
+			background-color: $color-orange;
+			bottom: -1rem;
+			left: 50%;
+			transform: translateX(-50%);
+			transition: opacity 0.2s ease-in-out;
+		}
+	}
+
+	.channel {
+		color: $color-blue;
+		font-size: $font-sm;
+	}
+
+	.times {
+		font-size: $font-sm;
+	}
+
+	.more {
+		margin-top: $space-2;
+		font-size: 1.5rem;
+		cursor: pointer;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	.extraContainer {
+		width: 90%;
+		margin-top: $space-5;
+
+		span {
+			font-weight: 700;
+		}
+
+		.description {
+			text-align: left;
+		}
+
+		.recordable {
+			text-align: left;
+			margin-top: $space-1;
+		}
+	}
+}

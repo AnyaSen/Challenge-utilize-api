@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Loader /> Should contain the correct image & text 1`] = `
+<div
+  class="LoaderContainer"
+  data-testid="Loader"
+>
+  <img
+    alt="loader icon"
+    src="play-button.svg"
+  />
+  <h3>
+    Loading...
+  </h3>
+</div>
+`;

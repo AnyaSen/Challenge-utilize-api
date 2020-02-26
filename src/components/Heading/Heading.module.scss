@@ -1,0 +1,9 @@
+@import '../../assets/scss/breakpoints';
+@import '../../assets/scss/variables';
+
+.HeadingContainer {
+	h2 {
+		text-align: center;
+		margin: $space-7;
+	}
+}

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChannelCard /> Should match props 1`] = `
+<div
+  class="ChannelCardContainer"
+  data-testid="ChannelCard"
+>
+  <img
+    alt="Channel Logo"
+    class="image"
+    data-testid="ChannelImage"
+    src="https://balbla.com"
+  />
+  <p
+    class="description"
+    data-testid="ChannelDescription"
+  >
+    Some description..
+  </p>
+</div>
+`;

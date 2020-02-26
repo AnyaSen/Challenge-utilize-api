@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorCard /> Should contain the correct image & text 1`] = `
+<div
+  class="ErrorCardContainer"
+  data-testid="ErrorCard"
+>
+  <img
+    alt="Error"
+    src="error.svg"
+  />
+  <p
+    data-testid="errorMessage"
+  >
+    Sorry, something went wrong. :(
+  </p>
+</div>
+`;

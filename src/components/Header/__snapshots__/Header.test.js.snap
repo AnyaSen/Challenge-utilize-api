@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> Should contain the correct text 1`] = `
+<div
+  class="HeaderContainer"
+>
+  <h1>
+    Welcome to Elisa Viihde!
+  </h1>
+  <h3>
+    In this app you can see a list of live TV programs and channels.
+  </h3>
+  <div
+    class="buttonsContainer"
+  >
+    <a>
+      <button
+        class="PrimaryButton"
+      >
+        Live Programs
+      </button>
+    </a>
+    <a
+      href="/channels"
+    >
+      <button
+        class="SecondaryButton"
+      >
+        All Channels
+      </button>
+    </a>
+  </div>
+</div>
+`;

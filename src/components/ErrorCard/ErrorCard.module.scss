@@ -1,0 +1,33 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/breakpoints';
+
+.ErrorCardContainer {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid $color-red;
+	border-radius: $border-radius;
+	padding: $space-5 $space-7;
+	max-width: 45rem;
+	margin: $space-2;
+
+	img {
+		height: 9rem;
+		margin-bottom: $space-4;
+	}
+
+	p {
+		text-align: center;
+	}
+
+	@include md {
+		padding: $space-5;
+	}
+
+	@include sm {
+		padding: $space-4;
+
+		img {
+			height: 6rem;
+		}
+	}
+}

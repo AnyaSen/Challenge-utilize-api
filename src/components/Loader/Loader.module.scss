@@ -1,0 +1,9 @@
+@import '../../assets/scss/variables';
+.LoaderContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	img {
+		margin-bottom: $space-2;
+	}
+}

@@ -1,0 +1,29 @@
+@import '../../../assets/scss/breakpoints';
+@import '../../../assets/scss/variables';
+
+.ChannelCardContainer {
+	display: flex;
+	padding: $space-3 $space-4;
+	border: 1px solid $color-border-color;
+	border-radius: $border-radius;
+	max-width: 45rem;
+	margin: $space-2;
+	min-width: 40%;
+
+	@include sm {
+		padding: $space-1 $space-2;
+	}
+
+	.image {
+		height: 5rem;
+		margin-right: $space-2;
+
+		@include sm {
+			height: 4rem;
+		}
+	}
+
+	.description {
+		margin-top: $space-4;
+	}
+}

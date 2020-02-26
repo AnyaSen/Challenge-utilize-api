@@ -1,0 +1,41 @@
+@import "../../assets/scss/variables";
+@import "../../assets/scss/breakpoints";
+
+.HeaderContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 88vh;
+  padding-bottom: 10rem;
+  background-color: $color-dark-white;
+  text-align: center;
+
+  @include md {
+    padding-bottom: 0;
+  }
+
+  h1 {
+    color: $color-blue;
+    padding: $space-2;
+  }
+
+  h3 {
+    margin: $space-3 0;
+    padding: 0 $space-2;
+  }
+
+  .buttonsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &:first-child {
+      margin-right: $space-5;
+
+      @include sm {
+        margin-right: $space-3;
+      }
+    }
+  }
+}

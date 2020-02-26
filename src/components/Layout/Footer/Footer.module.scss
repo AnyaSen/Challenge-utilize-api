@@ -1,0 +1,38 @@
+@import '../../../assets/scss/breakpoints';
+@import '../../../assets/scss/variables';
+
+.FooterContainer {
+	display: flex;
+	padding: $space-2 $space-7;
+	justify-content: space-between;
+	background-color: $color-dark-white;
+	text-align: center;
+	width: 100%;
+
+	@include sm {
+		padding: $space-1 $space-3;
+	}
+
+	@include md {
+		flex-direction: column;
+	}
+
+	p {
+		margin: $space-0;
+		font-weight: bold;
+
+		@include md {
+			margin: $space-1;
+		}
+
+		a {
+			font-weight: 300;
+			border-bottom: 1px solid $color-text-color;
+			transition: border-color 0.4s ease-in-out;
+
+			&:hover {
+				border-color: $color-orange;
+			}
+		}
+	}
+}

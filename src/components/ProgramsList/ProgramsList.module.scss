@@ -1,0 +1,44 @@
+@import '../../assets/scss/variables';
+
+.ProgramsListContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: $space-7;
+
+	.timezone {
+		text-align: center;
+		width: 100%;
+		margin-bottom: $space-5;
+	}
+
+	.showMoreContainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		margin-top: $space-5;
+
+		.showMore {
+			text-align: center;
+			cursor: pointer;
+
+			&:hover {
+				img {
+					transform: translateY(0.4rem);
+				}
+			}
+
+			p {
+				margin-bottom: $space-0;
+			}
+
+			img {
+				transition: transform 0.2s ease-in-out;
+				margin: 0 auto;
+			}
+		}
+	}
+}

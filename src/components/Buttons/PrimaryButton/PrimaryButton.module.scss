@@ -1,0 +1,5 @@
+@import '../../../assets/scss/mixins';
+
+.PrimaryButton {
+	@include button($color-blue, $color-dark-blue);
+}
