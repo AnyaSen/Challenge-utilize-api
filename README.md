@@ -31,4 +31,5 @@ Each program and channel has its descripton.
 
 ## How to run tests
 
+- npm start
 - npm run test
