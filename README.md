@@ -6,6 +6,14 @@ Each program and channel has its descripton.
 
 ## Demo link
 
+[Open Demo Version](https://utilizeapi.netlify.com/)
+
+## Video demo
+
+<a href="https://vimeo.com/394001079" >
+	<img src="./video.png" alt="Video Demo"/>
+</a>
+
 ## Technologies and tools used
 
 - JavaSctipt
@@ -16,7 +24,11 @@ Each program and channel has its descripton.
   - Sass
 - Netlify
 
-## How to run
+## How to get locally
 
-- git clone
+- git clone https://github.com/AnyaSen/Challenge-utilize-api.git
 - npm install
+
+## How to run tests
+
+- npm run test
