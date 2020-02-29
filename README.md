@@ -29,7 +29,10 @@ Each program and channel has its descripton.
 - git clone https://github.com/AnyaSen/Challenge-utilize-api.git
 - npm install
 
-## How to run tests
+## How to run
 
 - npm start
+
+## How to run tests
+
 - npm run test
